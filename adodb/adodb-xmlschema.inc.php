@@ -156,9 +156,9 @@ class dbObject {
 	/**
 	* Destroys the object
 	*/
-	function destroy() {
-		unset( $this );
-	}
+	// function destroy() {
+	// 	unset( $this );
+	// }
 	
 	/**
 	* Checks whether the specified RDBMS is supported by the current
@@ -2196,10 +2196,10 @@ class adoSchema {
 	* Call this method to clean up after an adoSchema object that is no longer in use.
 	* @deprecated adoSchema now cleans up automatically.
 	*/
-	function Destroy() {
-		set_magic_quotes_runtime( $this->mgq );
-		unset( $this );
-	}
+	// function Destroy() {
+	// 	set_magic_quotes_runtime( $this->mgq );
+	// 	unset( $this );
+	// }
 }
 
 /**
